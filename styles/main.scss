@@ -731,9 +731,9 @@ a {
 
 .contact-list-item {
   display: inline-block;
-  padding: 30px;
+  padding: 20px;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .app-list-container {
@@ -761,6 +761,9 @@ a {
 }
 
 .contact-icons a img {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
+  vertical-align: auto;
+  border: none;
+  padding: 20px;
 }
