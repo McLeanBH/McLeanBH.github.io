@@ -372,11 +372,12 @@ code {
   padding: 3px;
   font-size: 13px; }
 
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: bottom; }
-
+/* img {
+  max-width:  100%;
+  height:  auto;
+  vertical-align:  bottom;
+}
+ */
 iframe {
   max-width: 100%; }
 
