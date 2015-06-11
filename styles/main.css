@@ -641,7 +641,8 @@ a {
   transform: rotate(360deg);
 }
  */
-.social li {
+.social li,
+.social li a {
   text-transform: none; }
 
 /*# sourceMappingURL=main.css.map */
