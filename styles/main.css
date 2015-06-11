@@ -641,5 +641,7 @@ a {
   transform: rotate(360deg);
 }
  */
+.social li {
+  text-transform: none; }
 
 /*# sourceMappingURL=main.css.map */
