@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -125,15 +126,15 @@ html {
 
 #main-title,
 #main-subtitle {
-  color: #dec27b; }
+  color: #FFDA00; }
 
 #main-nav a, .button {
-  color: #DEC27B;
-  border: 2px solid #DEC27B; }
+  color: #FFDA00;
+  border: 2px solid #FFDA00; }
 
 #main-nav a:hover,
 #main-nav a.selected {
-  background: #DEC27B;
+  background: #FFDA00;
   color: #222; }
 
 body, #posts-list h3 {
@@ -270,18 +271,18 @@ body {
 
 ::selection,
 ::-moz-selection {
-  background: #DEC27B;
+  background: #FFDA00;
   color: #291A03; }
 
 a:hover,
 #posts-list a:hover {
-  color: #DEC27B;
-  border-color: #DEC27B; }
+  color: #FFDA00;
+  border-color: #FFDA00; }
 
 li a,
 p a {
-  color: #DEC27B;
-  border-bottom: 1px dotted #DEC27B; }
+  color: #FFDA00;
+  border-bottom: 1px dotted #FFDA00; }
 
 table {
   width: 100%;
@@ -360,7 +361,7 @@ h4 + p {
 
 pre {
   background: none repeat scroll 0 0 #F7F7F7;
-  border: 2px solid #DEC27B;
+  border: 2px solid #FFDA00;
   font-family: Consolas, Courier, Monaco, monospace;
   font-size: 12px;
   line-height: 19px;
@@ -396,16 +397,16 @@ figcaption {
   text-transform: uppercase; }
 
 .button {
-  border-color: #DEC27B;
-  color: #DEC27B; }
+  border-color: #FFDA00;
+  color: #FFDA00; }
 
 .button:hover {
-  border-color: #DEC27B;
-  background: #DEC27B;
+  border-color: #FFDA00;
+  background: #FFDA00;
   color: #fff; }
 
 figcaption {
-  background: #DEC27B;
+  background: #FFDA00;
   background: rgba(181, 154, 101, 0.5); }
 
 .projects-list {
@@ -493,7 +494,7 @@ figcaption {
 h3.section-title {
   font-size: 20px;
   line-height: 24px;
-  color: #222;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 400; }
 
@@ -520,7 +521,7 @@ h3.section-title {
 
 .social a {
   border: transparent;
-  color: #DEC27B; }
+  color: #FFDA00; }
 
 a {
   -webkit-transition: all 150ms linear;
@@ -544,7 +545,7 @@ a {
   font-size: 14px;
   text-transform: uppercase;
   line-height: 14px;
-  color: #DEC27B; }
+  color: #FFDA00; }
 
 .main-footer .vertical-container {
   text-align: left;
@@ -597,11 +598,11 @@ a {
   .projects-list li {
     margin: 20px 0 0  !important; } }
 #title {
-  color: #DDC17F;
+  color: #FFDA00;
   font-size: 104px; }
 
 #title2 {
-  color: #DDC17F;
+  color: #FFDA00;
   font-size: 30px; }
 
 .contact-list-item {
@@ -652,5 +653,135 @@ a {
   width: 900px;
   margin: 0 auto;
   margin-top: 100px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  background: #000;
+  color: #ffd800; }
+
+.wrap {
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100%; }
+
+h1 {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffd800;
+  letter-spacing: 0px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -ms-transition: 1s;
+  position: relative;
+  padding: 10px; }
+
+h1:before,
+h1:after {
+  content: "";
+  position: absolute;
+  height: 7px;
+  width: 0px;
+  background: #ffd800;
+  transition: 300ms;
+  -webkit-transition: 1s;
+  -ms-transition: 1s;
+  opacity: .3; }
+
+h1:before {
+  bottom: 0;
+  right: 0; }
+
+h1:after {
+  top: 0;
+  left: 0; }
+
+h1:hover {
+  letter-spacing: 30px; }
+
+h1:hover:before,
+h1:hover:after {
+  width: 100%;
+  opacity: 1; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #ffd800; }
+
+.menu {
+  width: 150px;
+  height: 150px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  background: #ffd800;
+  border-radius: 100%;
+  border: 1px solid #ffd800;
+  cursor: pointer;
+  margin-top: 400px; }
+  .menu ul {
+    padding: 0;
+    width: 100%;
+    display: none;
+    position: relative;
+    text-align: center;
+    top: -120px; }
+    .menu ul li {
+      display: inline-block;
+      position: relative;
+      font-family: Inconsolata;
+      font-size: 25px;
+      margin-right: 25px;
+      box-sizing: border-box;
+      width: 125px;
+      letter-spacing: 3px;
+      text-align: center;
+      line-height: 50px; }
+      .menu ul li:last-child {
+        margin-right: 0; }
+      .menu ul li:hover {
+        background: #ffd800; }
+        .menu ul li:hover a {
+          color: #000; }
+  .menu .menuTitle {
+    line-height: 150px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 8px;
+    display: block;
+    padding-left: 5px;
+    font-family: Inconsolata;
+    -webkit-user-select: none; }
+
+.contact-icons:before {
+  transition: transform 1.9s ease-out;
+  transform: rotate(41400deg); }
+
+.contact-icons:after {
+  transition: transform 1.9s ease-out;
+  transform: rotate(41400deg); }
+
+.contact-icons:visited {
+  transition: transform 1.9s ease-out;
+  transform: rotate(41400deg); }
+
+.contact-icons:hover {
+  transition: transform 1.9s ease-out;
+  transform: rotate(41400deg); }
 
 /*# sourceMappingURL=main.css.map */
