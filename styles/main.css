@@ -645,4 +645,12 @@ a {
 .social li a {
   text-transform: none; }
 
+#img-box {
+  background: url("../img/error-404.png") top center no-repeat;
+  background-size: contain;
+  height: 350px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 100px; }
+
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,7 @@
- @import 'bourbon/bourbon';
- @import 'neat/neat';
+@import 'bourbon/bourbon';
+$visual-grid: false;
+$gutter: em(47px);
+@import 'neat/neat';
 
  * {
    margin: 0;
@@ -826,3 +828,12 @@
   //
   // /* desktop-xlarge */
   // @media all and (min-width: 1601px) and (min-width: 1920px) { }
+
+  #img-box {
+    background: url('../img/error-404.png') top center no-repeat;
+    background-size: contain; 
+    height: 350px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
